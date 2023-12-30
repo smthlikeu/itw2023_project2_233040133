@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: rgb(251, 62, 69);
+}
+
+.jumbotron {
+  padding: 10rem 0 ;
+  background-image: url(../img/cireng2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#about {
+  padding:6rem 0 12rem ;
+}
+
+#product {
+  padding: 6rem 0 16rem;
+}
+
+#reviews {
+  padding: 6rem 0 23rem;
+}
+
+#contact {
+  padding: 6rem 0 20rem;
+}
+
+
+.clearfix {
+  text-align: justify;
+}
+
+.person {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.person img {
+  width: 100%;
+}
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators [data-bs-target] {
+  width: 60px;
+  height: 10px;
+  background-color: #6f6b80;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-header p {
+    width: 85%;
+  }
+  .content p {
+    width: 95%;
+  }
+}
+@media (max-width: 767px) {
+  .review {
+    padding: 30px 0;
+  }
+  .section-header p {
+    width: 95%;
+  }
+  .content p {
+    width: 100%;
+  }
+  .icon-area i {
+    font-size: 50px;
+  }
+}
