@@ -6,7 +6,10 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥟</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
+
+
 
 .navbar {
   background-color: #fb3e45;
@@ -66,6 +69,13 @@ footer {
   .content p {
     width: 95%;
   }
+  .clearfix {
+    font-size: 18px;
+  }
+  .person {
+    width: 200px;
+    height: 200px;
+  }
 }
 @media (max-width: 767px) {
   .review {
@@ -79,5 +89,12 @@ footer {
   }
   .icon-area i {
     font-size: 50px;
+  }
+  .clearfix {
+    font-size: 16px;
+  }
+  .person {
+    width: 100px;
+    height: 100px;
   }
 }
