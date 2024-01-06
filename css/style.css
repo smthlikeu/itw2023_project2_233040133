@@ -6,10 +6,31 @@
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥟</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🥟</text></svg>") 16 0, auto; /*!emojicursor.app*/
 }
 
+/* scrollbar */
+body {
+  --sb-track-color: #232E33;
+  --sb-thumb-color: #0d6efd;
+  --sb-size: 10px;
 
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  
+  }
 
 .navbar {
   background-color: #fb3e45;
